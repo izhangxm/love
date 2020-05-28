@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>I Love You</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="format-detection" content="telephone=no"/>
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    {#    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">#}
+    <link rel="stylesheet" href="http://39.98.67.159:1314/static/css/swiper.min.css">
+    <link rel="stylesheet" href="http://39.98.67.159:1314/static/css/animate.min.css">
+    <script src="http://39.98.67.159:1314/static/layer_mobile/layer.js"></script>
+
+    <!-- Demo styles -->
+    <style>
+
+        html, body {
+            position: relative;
+            height: 100%;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        body {
+            background: #eee;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+
+        .swiper-container {
+            width: 100%;
+            height: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+
+        @-webkit-keyframes rotation {
+            from {
+                -webkit-transform: rotate(0deg);
+            }
+            to {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+
+        .imgRotate {
+            -webkit-transform: rotate(360deg);
+            animation: rotation 3s linear infinite;
+            -moz-animation: rotation 3s linear infinite;
+            -webkit-animation: rotation 3s linear infinite;
+            -o-animation: rotation 3s linear infinite;
+        }
+
+    </style>
+</head>
+<body>
+<img class="" src="http://39.98.67.159:1314/static/img/music_icon.png" id="music_icon"
+     style="width: 38.8125px; height: 38.8125px; right: 19.4062px; top: 19.4062px; opacity: 1; position: absolute; display: block; z-index: 1000000; transform-origin: center center;  -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/>
+
+<!-- Swiper -->
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+
+        <!-- Page 0 封面 -->
+        <div class="swiper-slide">
+            <div class="maka-eleCanvas maka-eleCanvas-1"
+                 style="width: 414px; height: 736px; left: 0px; top: 0px; position: absolute;">
+                <div ele-id="0"
+                     style="width: 414px; height: 736px; left: 0px; top:0px; position: absolute; opacity: 1; transform: rotate(0deg); cursor: pointer;"
+                     class="rotateZ0">
+                    <div class="ani"
+                         swiper-animate-effect="fadeIn" swiper-animate-duration="1.3s" swiper-animate-delay="0s"
+                         style="position: absolute; width: 100%; height: 100%; overflow: hidden; border-radius: 0px; box-shadow: black 0px 0px 0px; background-image: url(/static/img/bg1.png); background-repeat: no-repeat; background-size: 414px 736px; background-position: center center; display: block;">
+                        <img src="http://39.98.67.159:1314/static/img/bg1.png"
+                             style="opacity: 0;"></div>
+                </div>
+
+                <div ele-id="1"
+                     style="width: 64.0406px; height: 55.6313px; left: 174.68px; top: 172.957px; position: absolute; opacity: 1; transform: rotate(0deg); cursor: pointer;"
+                     class="rotateZ0">
+                    <div class="ani"
+                         swiper-animate-effect="fadeInDown" swiper-animate-duration="1.6s" swiper-animate-delay="1.3s"
+                         style="position: absolute; width: 100%; height: 100%; overflow: hidden; border-radius: 0px; box-shadow: black 0px 0px 0px; background-image: url(/static/img/love_icon.png); background-repeat: no-repeat; background-size: 64.0406px 55.6313px; background-position: center center; display: block; ">
+                        <img src="http://39.98.67.159:1314/static/img/love_icon.png"
+                             style="opacity: 0;"></div>
+                </div>
+                <div ele-id="2"
+                     style="width: 32.9906px; height: 252.928px; left: 190.228px; top: 246.812px; position: absolute; opacity: 1; transform: rotate(0deg); cursor: pointer;"
+                     class="rotateZ0">
+                    <div class="ani"
+                         swiper-animate-effect="fadeInDown" swiper-animate-duration="1.6s" swiper-animate-delay="1.7s"
+                         style="position: absolute; width: 100%; height: 100%; overflow: hidden; border-radius: 0px; box-shadow: black 0px 0px 0px; background-image: url(/static/img/want_say.png); background-repeat: no-repeat; background-size: 32.9906px 252.928px; background-position: center center; display: block; ">
+                        <img src="http://39.98.67.159:1314/static/img/want_say.png"
+                             style="opacity: 0;"></div>
+                </div>
+
+                <div ele-id="29"
+                     style="position: absolute; width: 254.832px; height: 195.543px; top: 500px; left: 81.2823px; transform: rotate(0deg); transform-origin: center center; opacity: 1;"
+                     class="rotateZ0">
+                    <div class="ani"
+                         swiper-animate-effect="zoomIn" swiper-animate-duration="1.6s" swiper-animate-delay="2.0s"
+                         style="width: 100%; height: 100%; color: rgb(0, 0, 0); text-align: center; font-weight: normal; text-decoration: none; line-height: 1.8; font-style: normal; overflow-wrap: break-word; white-space: pre-wrap; font-size: 18px; letter-spacing: 0px; display: block; ">
+                        <div>{% if first_open is True %}亲爱的 恭喜你猜对了时间密码 向上滑动查看全部内容{% else %}亲爱的 欢迎你再次回来 这是你第{{ opened_times }}次打开这份情书{% endif %}
+                        </div>
+                    </div>
+                </div>
+
+                <div ele-id="3"
+                     style="width: 141.206px; height: 225.929px; left: 272.192px; top: 425.483px; position: absolute; opacity: 1; transform: rotate(0deg); cursor: pointer;"
+                     class="rotateZ0">
+                    <div class="ani"
+                         swiper-animate-effect="zoomIn" swiper-animate-duration="1.6s" swiper-animate-delay="2.1s"
+                         style="position: absolute; width: 100%; height: 100%; overflow: hidden; border-radius: 0px; box-shadow: black 0px 0px 0px; background-image: url(/static/img/right.png); background-repeat: no-repeat; background-size: 141.206px 225.929px; background-position: center center; display: block;">
+                        <img src="http://39.98.67.159:1314/static/img/right.png"
+                             style="opacity: 0;"></div>
+                </div>
+
+
+                <div ele-id="4"
+                     style="width: 135.844px; height: 225.759px; left: -57.283px; top: 424.836px; position: absolute; opacity: 1; transform: rotate(0deg); cursor: pointer;"
+                     class="rotateZ0">
+                    <div class="ani"
+                         swiper-animate-effect="zoomIn" swiper-animate-duration="1.6s" swiper-animate-delay="2.1s"
+                         style="position: absolute; width: 100%; height: 100%; overflow: hidden; border-radius: 0px; box-shadow: black 0px 0px 0px; background-image: url(/static/img/left.png); background-repeat: no-repeat; background-size: 135.844px 225.936px; background-position: center center; display: block;">
+                        <img src="http://39.98.67.159:1314/static/img/left.png"
+                             style="opacity: 0;"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page 1 相识 -->
+        <div class="swiper-slide">
+            <div class="maka-eleCanvas maka-eleCanvas-1"
+                 style="width: 414px; height: 736px; left: 0px; top: 0px; position: absolute;">
+                <div ele-id="0"
+                     style="width: 414px; height: 736px; left: 0px; top:0px; position: absolute; opacity: 1; transform: rotate(0deg); cursor: pointer;"
+                     class="rotateZ0">
+                    <div class="ani"
+                         swiper-animate-effect="fadeIn" swiper-animate-duration="1.3s" swiper-animate-delay="0s"
+                         style="position: absolute; width: 100%; height: 100%; overflow: hidden; border-radius: 0px; box-shadow: black 0px 0px 0px; background-image: url(/static/img/bg1.png); background-repeat: no-repeat; background-size: 414px 736px; background-position: center center; display: block;">
+                        <img src="http://39.98.67.159:1314/static/img/bg1.png"
+                             style="opacity: 0;"></div>
+                </div>
+
+                <div ele-id="28"
+                     style="width: 337.793px; height: 290.889px; left: 38.6064px; top: 65px; position: absolute; opacity: 1; transform: rotate(0deg); cursor: pointer;"
+                     class="rotateZ0">
+                    <div class="ani"
+                         swiper-animate-effect="zoomIn" swiper-animate-duration="1.8s" swiper-animate-delay="1.0s"
+                         style="position: absolute; width: 100%; height: 100%; overflow: hidden; border-radius: 32.5412px; box-shadow: black 0px 0px 55px; background-image: url(/static/img/shizhong.jpg); background-repeat: no-repeat; background-size: 337.793px 291.315px; background-position: center center; display: block;">
+                        <img src="http://39.98.67.159:1314/static/img/shizhong.jpg"
+                             style="opacity: 0;"></div>
+                </div>
+
+                <div ele-id="29"
+                     style="position: absolute; width: 254.832px; height: 195.543px; top: 350px; left: 81.2823px; transform: rotate(0deg); transform-origin: center center; opacity: 1;"
+                     class="rotateZ0">
+                    <div class="ani"
+                         swiper-animate-effect="zoomIn" swiper-animate-duration="1.6s" swiper-animate-delay="2.0s"
+                         style="width: 100%; height: 100%; color: rgb(0, 0, 0); text-align: center; font-weight: normal; text-decoration: none; line-height: 1.8; font-style: normal; overflow-wrap: break-word; white-space: pre-wrap; font-size: 18px; letter-spacing: 0px; display: block; ">
+                        <div>亲爱的 现在是{{ now_time }} 我们认识的第{{ total_day }}天，第{{ total_min }}分钟，第{{ total_sec }}秒钟。 静下来的时候想着你 一切都美好的那么不可思议 让我此生遇见最美的你
+                        </div>
+                    </div>
+                </div>
+
+
+                <div ele-id="3"
+                     style="width: 141.206px; height: 225.929px; left: 272.192px; top: 425.483px; position: absolute; opacity: 1; transform: rotate(0deg); cursor: pointer;"
+                     class="rotateZ0">
+                    <div class="ani"
+                         swiper-animate-effect="zoomIn" swiper-animate-duration="1.6s" swiper-animate-delay="2.1s"
+                         style="position: absolute; width: 100%; height: 100%; overflow: hidden; border-radius: 0px; box-shadow: black 0px 0px 0px; background-image: url(/static/img/right.png); background-repeat: no-repeat; background-size: 141.206px 225.929px; background-position: center center; display: block;">
+                        <img src="http://39.98.67.159:1314/static/img/right.png"
+                             style="opacity: 0;"></div>
+                </div>
+                <div ele-id="4"
+                     style="width: 135.844px; height: 225.759px; left: -57.283px; top: 424.836px; position: absolute; opacity: 1; transform: rotate(0deg); cursor: pointer;"
+                     class="rotateZ0">
+                    <div class="ani"
+                         swiper-animate-effect="zoomIn" swiper-animate-duration="1.6s" swiper-animate-delay="2.1s"
+                         style="position: absolute; width: 100%; height: 100%; overflow: hidden; border-radius: 0px; box-shadow: black 0px 0px 0px; background-image: url(/static/img/left.png); background-repeat: no-repeat; background-size: 135.844px 225.936px; background-position: center center; display: block;">
+                        <img src="http://39.98.67.159:1314/static/img/left.png"
+                             style="opacity: 0;"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Page 1 词云 -->
+        <div class="swiper-slide">
+            <div class="maka-eleCanvas maka-eleCanvas-1"
+                 style="width: 414px; height: 736px; left: 0px; top: 0px; position: absolute;">
+                <div ele-id="0"
+                     style="width: 414px; height: 736px; left: 0px; top:0px; position: absolute; opacity: 1; transform: rotate(0deg); cursor: pointer;"
+                     class="rotateZ0">
+                    <div class="ani"
+                         swiper-animate-effect="fadeIn" swiper-animate-duration="1.3s" swiper-animate-delay="0s"
+                         style="position: absolute; width: 100%; height: 100%; overflow: hidden; border-radius: 0px; box-shadow: black 0px 0px 0px; background-image: url(/static/img/bg1.png); background-repeat: no-repeat; background-size: 414px 736px; background-position: center center; display: block;">
+                        <img src="http://39.98.67.159:1314/static/img/bg1.png"
+                             style="opacity: 0;"></div>
+                </div>
+
+                <div ele-id="67"
+                     class="ani"
+                     swiper-animate-effect="fadeInDown" swiper-animate-duration="1.8s" swiper-animate-delay="0.9s"
+                     style="position: absolute; width: 322.788px; height: 130.362px; top: 69.282px; left: 51.4789px; transform: rotate(0deg); transform-origin: center center; opacity: 1;">
+                    <div style="width: 100%; height: 100%; color: rgb(0, 0, 0); text-align: center; font-weight: normal; text-decoration: none; line-height: 1.8; font-style: normal; overflow-wrap: break-word; white-space: pre-wrap; font-size: 18px; letter-spacing: 0px; display: block; ">
+                        <div>自2020年4月15日起，共计{{ total_count }}条微信聊天中，发送表情共计{{ emoji_count }}次，最常出现的10个词语为:{{ word_cloud_top10 }}</div>
+                    </div>
+                </div>
+                <div ele-id="69"
+                     style="width: 337.793px; height: 290.889px; left: 38.6064px;  top: 292.298px; position: absolute; opacity: 1; transform: rotate(0deg); cursor: pointer;">
+                    <div class="ani"
+                         swiper-animate-effect="fadeInUp" swiper-animate-duration="1.8s" swiper-animate-delay="0.9s"
+                         style="position: absolute; width: 100%; height: 100%; overflow: hidden; border-radius: 32.392px; box-shadow: black 0px 0px 0px; background-image: url(/static/wordcloud/{{ word_cloud_pic }}); background-repeat: no-repeat; background-size: cover; background-position: center center; display: block;">
+                        <img src="http://39.98.67.159:1314/static/wordcloud/{{ word_cloud_pic }}"
+                             style="opacity: 0;">
+                    </div>
+                </div>
+
+
+                <div ele-id="3"
+                     style="width: 141.206px; height: 225.929px; left: 272.192px; top: 425.483px; position: absolute; opacity: 1; transform: rotate(0deg); cursor: pointer;"
+                     class="rotateZ0">
+                    <div class="ani"
+                         swiper-animate-effect="zoomIn" swiper-animate-duration="1.6s" swiper-animate-delay="2.1s"
+                         style="position: absolute; width: 100%; height: 100%; overflow: hidden; border-radius: 0px; box-shadow: black 0px 0px 0px; background-image: url(/static/img/right.png); background-repeat: no-repeat; background-size: 141.206px 225.929px; background-position: center center; display: block;">
+                        <img src="http://39.98.67.159:1314/static/img/right.png"
+                             style="opacity: 0;"></div>
+                </div>
+                <div ele-id="4"
+                     style="width: 135.844px; height: 225.759px; left: -57.283px; top: 424.836px; position: absolute; opacity: 1; transform: rotate(0deg); cursor: pointer;"
+                     class="rotateZ0">
+                    <div class="ani"
+                         swiper-animate-effect="zoomIn" swiper-animate-duration="1.6s" swiper-animate-delay="2.1s"
+                         style="position: absolute; width: 100%; height: 100%; overflow: hidden; border-radius: 0px; box-shadow: black 0px 0px 0px; background-image: url(/static/img/left.png); background-repeat: no-repeat; background-size: 135.844px 225.936px; background-position: center center; display: block;">
+                        <img src="http://39.98.67.159:1314/static/img/left.png"
+                             style="opacity: 0;"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Page 1 聊天统计 -->
+        <div class="swiper-slide">
+            <div class="maka-eleCanvas maka-eleCanvas-1"
+                 style="width: 414px; height: 736px; left: 0px; top: 0px; position: absolute;">
+                <div ele-id="0"
+                     style="width: 414px; height: 736px; left: 0px; top:0px; position: absolute; opacity: 1; transform: rotate(0deg); cursor: pointer;"
+                     class="rotateZ0">
+                    <div class="ani"
+                         swiper-animate-effect="fadeIn" swiper-animate-duration="1.3s" swiper-animate-delay="0s"
+                         style="position: absolute; width: 100%; height: 100%; overflow: hidden; border-radius: 0px; box-shadow: black 0px 0px 0px; background-image: url(/static/img/bg1.png); background-repeat: no-repeat; background-size: 414px 736px; background-position: center center; display: block;">
+                        <img src="http://39.98.67.159:1314/static/img/bg1.png"
+                             style="opacity: 0;"></div>
+                </div>
+
+                <div ele-id="28"
+                     style="width: 337.793px; height: 290.889px; left: 38.6064px; top: 65px; position: absolute; opacity: 1; transform: rotate(0deg); cursor: pointer;"
+                     class="rotateZ0">
+                    <div class="ani"
+                         swiper-animate-effect="zoomIn" swiper-animate-duration="1.8s" swiper-animate-delay="1.0s"
+                         style="position: absolute; width: 100%; height: 100%; overflow: hidden; border-radius: 32.5412px; box-shadow: black 0px 0px 55px; background-image: url(/static/img/biji.jpg); background-repeat: no-repeat; background-size: 337.793px 291.315px; background-position: center center; display: block;">
+                        <img src="http://39.98.67.159:1314/static/img/biji.jpg"
+                             style="opacity: 0;"></div>
+                </div>
+
+                <div ele-id="29"
+                     style="position: absolute; width: 254.832px; height: 195.543px; top: 350px; left: 81.2823px; transform: rotate(0deg); transform-origin: center center; opacity: 1;"
+                     class="rotateZ0">
+                    <div class="ani"
+                         swiper-animate-effect="zoomIn" swiper-animate-duration="1.6s" swiper-animate-delay="2.0s"
+                         style="width: 100%; height: 100%; color: rgb(0, 0, 0); text-align: center; font-weight: normal; text-decoration: none; line-height: 1.8; font-style: normal; overflow-wrap: break-word; white-space: pre-wrap; font-size: 18px; letter-spacing: 0px; display: block; ">
+                        <div>截止到{{ csv_flag }}，去你家3次，见到你5次，一起吃饭4次，语音通话{{ voice_count }}次，总时长{{ voice_duration }}秒，平均每次{{ voice_avg }}秒，彻夜未眠2次，你笑了无数次
+                        </div>
+                    </div>
+                </div>
+
+
+                <div ele-id="3"
+                     style="width: 141.206px; height: 225.929px; left: 272.192px; top: 425.483px; position: absolute; opacity: 1; transform: rotate(0deg); cursor: pointer;"
+                     class="rotateZ0">
+                    <div class="ani"
+                         swiper-animate-effect="zoomIn" swiper-animate-duration="1.6s" swiper-animate-delay="2.1s"
+                         style="position: absolute; width: 100%; height: 100%; overflow: hidden; border-radius: 0px; box-shadow: black 0px 0px 0px; background-image: url(/static/img/right.png); background-repeat: no-repeat; background-size: 141.206px 225.929px; background-position: center center; display: block;">
+                        <img src="http://39.98.67.159:1314/static/img/right.png"
+                             style="opacity: 0;"></div>
+                </div>
+                <div ele-id="4"
+                     style="width: 135.844px; height: 225.759px; left: -57.283px; top: 424.836px; position: absolute; opacity: 1; transform: rotate(0deg); cursor: pointer;"
+                     class="rotateZ0">
+                    <div class="ani"
+                         swiper-animate-effect="zoomIn" swiper-animate-duration="1.6s" swiper-animate-delay="2.1s"
+                         style="position: absolute; width: 100%; height: 100%; overflow: hidden; border-radius: 0px; box-shadow: black 0px 0px 0px; background-image: url(/static/img/left.png); background-repeat: no-repeat; background-size: 135.844px 225.936px; background-position: center center; display: block;">
+                        <img src="http://39.98.67.159:1314/static/img/left.png"
+                             style="opacity: 0;"></div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- Page 3 爱情就像盐一样 -->
+        <div class="swiper-slide">
+            <div class="maka-eleCanvas maka-eleCanvas-1"
+                 style="width: 414px; height: 736px; left: 0px; top: 0px; position: absolute;">
+                <div ele-id="0"
+                     style="width: 414px; height: 736px; left: 0px; top:0px; position: absolute; opacity: 1; transform: rotate(0deg); cursor: pointer;"
+                     class="rotateZ0">
+                    <div class="ani"
+                         swiper-animate-effect="fadeIn" swiper-animate-duration="1.3s" swiper-animate-delay="0s"
+                         style="position: absolute; width: 100%; height: 100%; overflow: hidden; border-radius: 0px; box-shadow: black 0px 0px 0px; background-image: url(/static/img/bg1.png); background-repeat: no-repeat; background-size: 414px 736px; background-position: center center; display: block;">
+                        <img src="http://39.98.67.159:1314/static/img/bg1.png"
+                             style="opacity: 0;"></div>
+                </div>
+
+                <div ele-id="28"
+                     style="width: 337.793px; height: 290.889px; left: 38.6064px; top: 65px; position: absolute; opacity: 1; transform: rotate(0deg); cursor: pointer;"
+                     class="rotateZ0">
+                    <div class="ani"
+                         swiper-animate-effect="fadeInDown" swiper-animate-duration="1.8s" swiper-animate-delay="1.0s"
+                         style="position: absolute; width: 100%; height: 100%; overflow: hidden; border-radius: 62.5412px; box-shadow: black 0px 0px 55px; background-image: url(/static/img/salt3.jpg); background-repeat: no-repeat; background-size: 337.793px 291.315px; background-position: center center; display: block;">
+                        <img src="http://39.98.67.159:1314/static/img/salt3.jpg"
+                             style="opacity: 0;"></div>
+                </div>
+
+                <div ele-id="29"
+                     style="position: absolute; width: 254.832px; height: 195.543px; top: 350px; left: 81.2823px; transform: rotate(0deg); transform-origin: center center; opacity: 1;"
+                     class="rotateZ0">
+                    <div class="ani"
+                         swiper-animate-effect="fadeInUp" swiper-animate-duration="1.6s" swiper-animate-delay="2.0s"
+                         style="width: 100%; height: 100%; color: rgb(0, 0, 0); text-align: center; font-weight: normal; text-decoration: none; line-height: 1.8; font-style: normal; overflow-wrap: break-word; white-space: pre-wrap; font-size: 18px; letter-spacing: 0px; display: block; ">
+                        <div>爱情就像盐一样 少了它虽然可以活下去 但生活从此就索然无味 希望我的出现 能给你的生活带来些许乐趣</div>
+                    </div>
+                </div>
+
+
+                <div ele-id="3"
+                     style="width: 141.206px; height: 225.929px; left: 272.192px; top: 425.483px; position: absolute; opacity: 1; transform: rotate(0deg); cursor: pointer;"
+                     class="rotateZ0">
+                    <div class="ani"
+                         swiper-animate-effect="zoomIn" swiper-animate-duration="1.6s" swiper-animate-delay="2.1s"
+                         style="position: absolute; width: 100%; height: 100%; overflow: hidden; border-radius: 0px; box-shadow: black 0px 0px 0px; background-image: url(/static/img/right.png); background-repeat: no-repeat; background-size: 141.206px 225.929px; background-position: center center; display: block;">
+                        <img src="http://39.98.67.159:1314/static/img/right.png"
+                             style="opacity: 0;"></div>
+                </div>
+                <div ele-id="4"
+                     style="width: 135.844px; height: 225.759px; left: -57.283px; top: 424.836px; position: absolute; opacity: 1; transform: rotate(0deg); cursor: pointer;"
+                     class="rotateZ0">
+                    <div class="ani"
+                         swiper-animate-effect="zoomIn" swiper-animate-duration="1.6s" swiper-animate-delay="2.1s"
+                         style="position: absolute; width: 100%; height: 100%; overflow: hidden; border-radius: 0px; box-shadow: black 0px 0px 0px; background-image: url(/static/img/left.png); background-repeat: no-repeat; background-size: 135.844px 225.936px; background-position: center center; display: block;">
+                        <img src="http://39.98.67.159:1314/static/img/left.png"
+                             style="opacity: 0;"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Page 4 守护 -->
+        <div class="swiper-slide">
+            <div class="maka-eleCanvas maka-eleCanvas-1"
+                 style="width: 414px; height: 736px; left: 0px; top: 0px; position: absolute;">
+                <div ele-id="0"
+                     style="width: 414px; height: 736px; left: 0px; top:0px; position: absolute; opacity: 1; transform: rotate(0deg); cursor: pointer;"
+                     class="rotateZ0">
+                    <div class="ani"
+                         swiper-animate-effect="fadeIn" swiper-animate-duration="1.3s" swiper-animate-delay="0s"
+                         style="position: absolute; width: 100%; height: 100%; overflow: hidden; border-radius: 0px; box-shadow: black 0px 0px 0px; background-image: url(/static/img/bg1.png); background-repeat: no-repeat; background-size: 414px 736px; background-position: center center; display: block;">
+                        <img src="http://39.98.67.159:1314/static/img/bg1.png"
+                             style="opacity: 0;"></div>
+                </div>
+
+                <div ele-id="67"
+                     class="ani"
+                     swiper-animate-effect="fadeInDown" swiper-animate-duration="1.8s" swiper-animate-delay="0.9s"
+                     style="position: absolute; width: 322.788px; height: 130.362px; top: 69.282px; left: 51.4789px; transform: rotate(0deg); transform-origin: center center; opacity: 1;">
+                    <div style="width: 100%; height: 100%; color: rgb(0, 0, 0); text-align: center; font-weight: normal; text-decoration: none; line-height: 1.8; font-style: normal; overflow-wrap: break-word; white-space: pre-wrap; font-size: 18px; letter-spacing: 0px; display: block; ">
+                        <div>你是个可爱的女孩子 我愿竭尽所能 一心一意保护好你 保护好你的初心 保护好你心中的美好 希望过了很久以后，站在你身边的依然是我</div>
+                    </div>
+                </div>
+                <div ele-id="69"
+                     style="width: 258.75px; height: 344.784px; left: 77.3369px; top: 292.298px; position: absolute; opacity: 1; transform: rotate(0deg); cursor: pointer;">
+                    <div class="ani"
+                         swiper-animate-effect="fadeInUp" swiper-animate-duration="1.8s" swiper-animate-delay="0.9s"
+                         style="position: absolute; width: 100%; height: 100%; overflow: hidden; border-radius: 172.392px; box-shadow: black 0px 0px 0px; background-image: url(/static/img/shouhu.jpg); background-repeat: no-repeat; background-size: 258.75px 344.784px; background-position: center center; display: block;">
+                        <img src="http://39.98.67.159:1314/static/img/shouhu.jpg"
+                             style="opacity: 0;">
+                    </div>
+                </div>
+
+
+                <div ele-id="3"
+                     style="width: 141.206px; height: 225.929px; left: 272.192px; top: 425.483px; position: absolute; opacity: 1; transform: rotate(0deg); cursor: pointer;"
+                     class="rotateZ0">
+                    <div class="ani"
+                         swiper-animate-effect="zoomIn" swiper-animate-duration="1.6s" swiper-animate-delay="2.1s"
+                         style="position: absolute; width: 100%; height: 100%; overflow: hidden; border-radius: 0px; box-shadow: black 0px 0px 0px; background-image: url(/static/img/right.png); background-repeat: no-repeat; background-size: 141.206px 225.929px; background-position: center center; display: block;">
+                        <img src="http://39.98.67.159:1314/static/img/right.png"
+                             style="opacity: 0;"></div>
+                </div>
+                <div ele-id="4"
+                     style="width: 135.844px; height: 225.759px; left: -57.283px; top: 424.836px; position: absolute; opacity: 1; transform: rotate(0deg); cursor: pointer;"
+                     class="rotateZ0">
+                    <div class="ani"
+                         swiper-animate-effect="zoomIn" swiper-animate-duration="1.6s" swiper-animate-delay="2.1s"
+                         style="position: absolute; width: 100%; height: 100%; overflow: hidden; border-radius: 0px; box-shadow: black 0px 0px 0px; background-image: url(/static/img/left.png); background-repeat: no-repeat; background-size: 135.844px 225.936px; background-position: center center; display: block;">
+                        <img src="http://39.98.67.159:1314/static/img/left.png"
+                             style="opacity: 0;"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page 5 每个人都向往美好的爱情 -->
+        <div class="swiper-slide">
+            <div class="maka-eleCanvas maka-eleCanvas-1"
+                 style="width: 414px; height: 736px; left: 0px; top: 0px; position: absolute;">
+                <div ele-id="0"
+                     style="width: 414px; height: 736px; left: 0px; top:0px; position: absolute; opacity: 1; transform: rotate(0deg); cursor: pointer;"
+                     class="rotateZ0">
+                    <div class="ani"
+                         swiper-animate-effect="fadeIn" swiper-animate-duration="1.3s" swiper-animate-delay="0s"
+                         style="position: absolute; width: 100%; height: 100%; overflow: hidden; border-radius: 0px; box-shadow: black 0px 0px 0px; background-image: url(/static/img/bg1.png); background-repeat: no-repeat; background-size: 414px 736px; background-position: center center; display: block;">
+                        <img src="http://39.98.67.159:1314/static/img/bg1.png"
+                             style="opacity: 0;"></div>
+                </div>
+
+                <div ele-id="28"
+                     style="width: 229.01px; height: 312.586px; left: 92.7px; top: 65px; position: absolute; opacity: 1; transform: rotate(0deg); cursor: pointer;"
+                     class="rotateZ0">
+                    <div class="ani"
+                         swiper-animate-effect="zoomIn" swiper-animate-duration="1.8s" swiper-animate-delay="1.0s"
+                         style="position: absolute; width: 100%; height: 100%; overflow: hidden; border-radius: 172.392px; box-shadow: black 0px 0px 0px; background-image: url(/static/img/shouqianshouwebp.png); background-repeat: no-repeat; background-size: 258.75px 344.784px; background-position: center center; display: block;">
+                        <img src="http://39.98.67.159:1314/static/img/shouqianshouwebp.png"
+                             style="opacity: 0;"></div>
+                </div>
+
+                <div ele-id="29"
+                     style="position: absolute; width: 254.832px; height: 195.543px; top: 350px; left: 81.2823px; transform: rotate(0deg); transform-origin: center center; opacity: 1;"
+                     class="rotateZ0">
+                    <div class="ani"
+                         swiper-animate-effect="zoomIn" swiper-animate-duration="1.6s" swiper-animate-delay="2.0s"
+                         style="width: 100%; height: 100%; color: rgb(0, 0, 0); text-align: center; font-weight: normal; text-decoration: none; line-height: 1.8; font-style: normal; overflow-wrap: break-word; white-space: pre-wrap; font-size: 18px; letter-spacing: 0px; display: block; ">
+                        <div>每个人都向往美好的爱情 我也不例外 但我知道幸福不是等来的 如果爱一个人就要大胆去表白 只要努力争取过 以后就不会后悔 可是如果因为我的沉默 而错过了一份美好的感情 我可能会一生耿耿于怀
+                        </div>
+                    </div>
+                </div>
+
+
+                <div ele-id="3"
+                     style="width: 141.206px; height: 225.929px; left: 272.192px; top: 425.483px; position: absolute; opacity: 1; transform: rotate(0deg); cursor: pointer;"
+                     class="rotateZ0">
+                    <div class="ani"
+                         swiper-animate-effect="zoomIn" swiper-animate-duration="1.6s" swiper-animate-delay="2.1s"
+                         style="position: absolute; width: 100%; height: 100%; overflow: hidden; border-radius: 0px; box-shadow: black 0px 0px 0px; background-image: url(/static/img/right.png); background-repeat: no-repeat; background-size: 141.206px 225.929px; background-position: center center; display: block;">
+                        <img src="http://39.98.67.159:1314/static/img/right.png"
+                             style="opacity: 0;"></div>
+                </div>
+                <div ele-id="4"
+                     style="width: 135.844px; height: 225.759px; left: -57.283px; top: 424.836px; position: absolute; opacity: 1; transform: rotate(0deg); cursor: pointer;"
+                     class="rotateZ0">
+                    <div class="ani"
+                         swiper-animate-effect="zoomIn" swiper-animate-duration="1.6s" swiper-animate-delay="2.1s"
+                         style="position: absolute; width: 100%; height: 100%; overflow: hidden; border-radius: 0px; box-shadow: black 0px 0px 0px; background-image: url(/static/img/left.png); background-repeat: no-repeat; background-size: 135.844px 225.936px; background-position: center center; display: block;">
+                        <img src="http://39.98.67.159:1314/static/img/left.png"
+                             style="opacity: 0;"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page 6 我喜欢你的笑容 -->
+        <div class="swiper-slide">
+            <div class="maka-eleCanvas maka-eleCanvas-1"
+                 style="width: 414px; height: 736px; left: 0px; top: 0px; position: absolute;">
+                <div ele-id="0"
+                     style="width: 414px; height: 736px; left: 0px; top:0px; position: absolute; opacity: 1; transform: rotate(0deg); cursor: pointer;"
+                     class="rotateZ0">
+                    <div class="ani"
+                         swiper-animate-effect="fadeIn" swiper-animate-duration="1.3s" swiper-animate-delay="0s"
+                         style="position: absolute; width: 100%; height: 100%; overflow: hidden; border-radius: 0px; box-shadow: black 0px 0px 0px; background-image: url(/static/img/bg1.png); background-repeat: no-repeat; background-size: 414px 736px; background-position: center center; display: block;">
+                        <img src="http://39.98.67.159:1314/static/img/bg1.png"
+                             style="opacity: 0;"></div>
+                </div>
+
+                <div ele-id="67"
+                     class="ani"
+                     swiper-animate-effect="fadeInDown" swiper-animate-duration="1.8s" swiper-animate-delay="0.9s"
+                     style="position: absolute; width: 322.788px; height: 130.362px; top: 69.282px; left: 51.4789px; transform: rotate(0deg); transform-origin: center center; opacity: 1;">
+                    <div style="width: 100%; height: 100%; color: rgb(0, 0, 0); text-align: center; font-weight: normal; text-decoration: none; line-height: 1.8; font-style: normal; overflow-wrap: break-word; white-space: pre-wrap; font-size: 18px; letter-spacing: 0px; display: block; ">
+                        <div>我喜欢你的笑容 你开心一笑 就像太阳一样 我喜欢听你讲你的故事 听你说话 感受你的悲欢喜乐 我喜欢你不是因为别的 就因为是这个人是你</div>
+                    </div>
+                </div>
+                <div ele-id="69"
+                     style="width: 337.793px; height: 337.793px; left: 38.6064px; top: 292.298px; position: absolute; opacity: 1; transform: rotate(0deg); cursor: pointer;">
+                    <div class="ani"
+                         swiper-animate-effect="fadeInUp" swiper-animate-duration="1.8s" swiper-animate-delay="0.9s"
+                         style="position: absolute; width: 100%; height: 100%; overflow: hidden; border-radius: 62.5412px; box-shadow: black 0px 0px 0px; background-image: url(/static/img/mm_head_img.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center; display: block;">
+                        <img src="http://39.98.67.159:1314/static/img/mm_head_img.jpg"
+                             style="opacity: 0;">
+                    </div>
+                </div>
+
+
+                <div ele-id="3"
+                     style="width: 141.206px; height: 225.929px; left: 272.192px; top: 425.483px; position: absolute; opacity: 1; transform: rotate(0deg); cursor: pointer;"
+                     class="rotateZ0">
+                    <div class="ani"
+                         swiper-animate-effect="zoomIn" swiper-animate-duration="1.6s" swiper-animate-delay="2.1s"
+                         style="position: absolute; width: 100%; height: 100%; overflow: hidden; border-radius: 0px; box-shadow: black 0px 0px 0px; background-image: url(/static/img/right.png); background-repeat: no-repeat; background-size: 141.206px 225.929px; background-position: center center; display: block;">
+                        <img src="http://39.98.67.159:1314/static/img/right.png"
+                             style="opacity: 0;"></div>
+                </div>
+                <div ele-id="4"
+                     style="width: 135.844px; height: 225.759px; left: -57.283px; top: 424.836px; position: absolute; opacity: 1; transform: rotate(0deg); cursor: pointer;"
+                     class="rotateZ0">
+                    <div class="ani"
+                         swiper-animate-effect="zoomIn" swiper-animate-duration="1.6s" swiper-animate-delay="2.1s"
+                         style="position: absolute; width: 100%; height: 100%; overflow: hidden; border-radius: 0px; box-shadow: black 0px 0px 0px; background-image: url(/static/img/left.png); background-repeat: no-repeat; background-size: 135.844px 225.936px; background-position: center center; display: block;">
+                        <img src="http://39.98.67.159:1314/static/img/left.png"
+                             style="opacity: 0;"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page 7 未来什么都很难确定 -->
+        <div class="swiper-slide">
+            <div class="maka-eleCanvas maka-eleCanvas-1"
+                 style="width: 414px; height: 736px; left: 0px; top: 0px; position: absolute;">
+                <div ele-id="0"
+                     style="width: 414px; height: 736px; left: 0px; top:0px; position: absolute; opacity: 1; transform: rotate(0deg); cursor: pointer;"
+                     class="rotateZ0">
+                    <div class="ani"
+                         swiper-animate-effect="fadeIn" swiper-animate-duration="1.3s" swiper-animate-delay="0s"
+                         style="position: absolute; width: 100%; height: 100%; overflow: hidden; border-radius: 0px; box-shadow: black 0px 0px 0px; background-image: url(/static/img/bg1.png); background-repeat: no-repeat; background-size: 414px 736px; background-position: center center; display: block;">
+                        <img src="http://39.98.67.159:1314/static/img/bg1.png"
+                             style="opacity: 0;"></div>
+                </div>
+
+                <div ele-id="28"
+                     style="width: 337.793px; height: 290.889px; left: 38.6064px; top: 65px; position: absolute; opacity: 1; transform: rotate(0deg); cursor: pointer;"
+                     class="rotateZ0">
+                    <div class="ani"
+                         swiper-animate-effect="zoomIn" swiper-animate-duration="1.8s" swiper-animate-delay="1.0s"
+                         style="position: absolute; width: 100%; height: 100%; overflow: hidden; border-radius: 62.5412px; box-shadow: black 0px 0px 55px; background-image: url(/static/img/zhefengdangyu.jpg); background-repeat: no-repeat; background-size: 337.793px 291.315px; background-position: center center; display: block;">
+                        <img src="http://39.98.67.159:1314/static/img/zhefengdangyu.jpg"
+                             style="opacity: 0;"></div>
+                </div>
+
+                <div ele-id="29"
+                     style="position: absolute; width: 254.832px; height: 195.543px; top: 350px; left: 81.2823px; transform: rotate(0deg); transform-origin: center center; opacity: 1;"
+                     class="rotateZ0">
+                    <div class="ani"
+                         swiper-animate-effect="zoomIn" swiper-animate-duration="1.6s" swiper-animate-delay="2.0s"
+                         style="width: 100%; height: 100%; color: rgb(0, 0, 0); text-align: center; font-weight: normal; text-decoration: none; line-height: 1.8; font-style: normal; overflow-wrap: break-word; white-space: pre-wrap; font-size: 18px; letter-spacing: 0px; display: block; ">
+                        <div>未来什么都很难确定 唯一确定的是 你就是我要找的那个人 无论狂风暴雨 我都会用双手为你撑起一片艳阳天 无论前路如何 我都会在 一直都在</div>
+                    </div>
+                </div>
+
+
+                <div ele-id="3"
+                     style="width: 141.206px; height: 225.929px; left: 272.192px; top: 425.483px; position: absolute; opacity: 1; transform: rotate(0deg); cursor: pointer;"
+                     class="rotateZ0">
+                    <div class="ani"
+                         swiper-animate-effect="zoomIn" swiper-animate-duration="1.6s" swiper-animate-delay="2.1s"
+                         style="position: absolute; width: 100%; height: 100%; overflow: hidden; border-radius: 0px; box-shadow: black 0px 0px 0px; background-image: url(/static/img/right.png); background-repeat: no-repeat; background-size: 141.206px 225.929px; background-position: center center; display: block;">
+                        <img src="http://39.98.67.159:1314/static/img/right.png"
+                             style="opacity: 0;"></div>
+                </div>
+                <div ele-id="4"
+                     style="width: 135.844px; height: 225.759px; left: -57.283px; top: 424.836px; position: absolute; opacity: 1; transform: rotate(0deg); cursor: pointer;"
+                     class="rotateZ0">
+                    <div class="ani"
+                         swiper-animate-effect="zoomIn" swiper-animate-duration="1.6s" swiper-animate-delay="2.1s"
+                         style="position: absolute; width: 100%; height: 100%; overflow: hidden; border-radius: 0px; box-shadow: black 0px 0px 0px; background-image: url(/static/img/left.png); background-repeat: no-repeat; background-size: 135.844px 225.936px; background-position: center center; display: block;">
+                        <img src="http://39.98.67.159:1314/static/img/left.png"
+                             style="opacity: 0;"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page 8 最最亲爱的人啊 路途遥远 我们在一起吧 -->
+        <div class="swiper-slide" id='last_slide'>
+            <div class="maka-eleCanvas maka-eleCanvas-2"
+                 style="width: 414px; height: 736px; left: 0px; top: 0px; position: absolute;">
+                <div ele-id="6" class="rotateZ0"
+                     style="width: 414px; height: 736px; left: 0px; top: 0px; position: absolute; opacity: 1; transform: rotate(0deg); cursor: pointer;">
+                    <div class="ani"
+                         swiper-animate-effect="fadeIn" swiper-animate-duration="1.3s" swiper-animate-delay="0s"
+                         style="position: absolute; width: 100%; height: 100%; overflow: hidden; border-radius: 0px; box-shadow: black 0px 0px 0px; background-image: url(/static/img/bg2.png); background-repeat: no-repeat; background-size: 414.03px 796.455px; background-position: center center; display: block; ">
+                        <img src="http://39.98.67.159:1314/static/img/bg2.png"
+                             style="opacity: 0;"></div>
+                </div>
+
+                <div ele-id="9" class="rotateZ0"
+                     style="width: 130.022px; height: 64.6875px; left: 144.9px; top: 30px; position: absolute; opacity: 1; transform: rotate(0deg); cursor: pointer;">
+                    <div class="ani"
+                         swiper-animate-effect="fadeInDown" swiper-animate-duration="2s" swiper-animate-delay="1.0s"
+                         style="position: absolute; width: 100%; height: 100%; overflow: hidden; border-radius: 0px; box-shadow: black 0px 0px 0px; background-image: url(/static/img/520.png); background-repeat: no-repeat; background-size: 130.022px 64.6875px; background-position: center center; display: block; transform: none;">
+                        <img src="http://39.98.67.159:1314/static/img/520.png"
+                             style="opacity: 0;"></div>
+                </div>
+                <div ele-id="16" class="rotateZ0"
+                     style="width: 100%; height: 200px; left: 0px; top: 100px; position: absolute; opacity: 1; transform: rotate(0deg); cursor: pointer;">
+                    <div class="ani"
+                         swiper-animate-effect="zoomIn" swiper-animate-duration="2s" swiper-animate-delay="1.0s"
+                         style="position: absolute; width: 100%; height: 100%; overflow: hidden; border-radius: 0px; box-shadow: black 0px 0px 0px; background-image: url(/static/img/wenzi.png); background-repeat: no-repeat; background-size: cover; display: block;">
+                        <img src="http://39.98.67.159:1314/static/img/wenzi.png"
+                             style="opacity: 0;"></div>
+                </div>
+
+                <div ele-id="16" class="rotateZ0"
+                     style="width: 135.844px; height: 98.3229px; left: 139.078px; top: 370px; position: absolute; opacity: 1; transform: rotate(0deg); cursor: pointer;">
+                    <div class="ani"
+                         swiper-animate-effect="zoomIn" swiper-animate-duration="2s" swiper-animate-delay="1.0s"
+                         style="position: absolute; width: 100%; height: 100%; overflow: hidden; border-radius: 0px; box-shadow: black 0px 0px 0px; background-image: url(/static/img/love_flow.gif); background-repeat: no-repeat; background-size: 174.981px 98.3229px; background-position: -19.5689px 0px; display: block;">
+                        <img src="http://39.98.67.159:1314/static/img/love_flow.gif"
+                             style="opacity: 0;"></div>
+                </div>
+                <div ele-id="7" class="rotateZ0"
+                     style="width: 247.106px; height: 191.475px; left: 93.15px; top: 370px; position: absolute; opacity: 1; transform: rotate(0deg); cursor: pointer;">
+                    <div class="ani"
+                         swiper-animate-effect="zoomIn" swiper-animate-duration="2s" swiper-animate-delay="1.0s"
+                         style="position: absolute; width: 100%; height: 100%; overflow: hidden; border-radius: 0px; box-shadow: black 0px 0px 0px; background-image: url(/static/img/give_me_lobe.png); background-repeat: no-repeat; background-size: 247.106px 191.475px; background-position: center center; display: block;">
+                        <img src="http://39.98.67.159:1314/static/img/give_me_lobe.png"
+                             style="opacity: 0;"></div>
+                </div>
+
+                <div ele-id="122"
+                     class="ani"
+                     swiper-animate-effect="fadeInUp" swiper-animate-duration="2s" swiper-animate-delay="2.0s"
+                     style="width: 100%; height: 200px; left: 0px; top: 400px; position: absolute; opacity: 1; transform: rotate(0deg); cursor: pointer;">
+                    <button class="mychoice" bt-type='ok'
+                            style="position: absolute;width: 160px;height: 46px;left: 30px;top: 190px;border-radius: 10px;box-shadow: black 0px 0px 0px;background-color:#5cb85c; color:#FFF;display: block;border: none;font-size: 26px;">
+                        好的
+                    </button>
+                    <button class="mychoice" bt-type='no'
+                            style="position: absolute;width: 160px;height: 46px;right: 30px;top: 190px;border-radius: 10px;box-shadow: black 0px 0px 0px;background-color:#f0ad4e; color:#FFF; display: block;border: none;font-size: 26px;">
+                        不好
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+</div>
+<script src="http://39.98.67.159:1314/static/js/jweixin-1.0.0.js"></script>
+<script src="http://39.98.67.159:1314/static/js/jquery-1.11.3.min.js"></script>
+<script src="http://39.98.67.159:1314/static/js/swiper.min.js"></script>
+<script src="http://39.98.67.159:1314/static/js/swiper.animate1.0.3.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+
+    function log_action(action, index) {
+        var form_data = [];
+        form_data.push({name: "action", value: action});
+        form_data.push({name: "index", value: index});
+
+        $.get('/log_action/', form_data, function (resp) {
+            {#var data = resp['data'];#}
+        })
+    }
+
+    TIP_INDEX = 0;
+    NO_TIP_INDEX = 0;
+
+
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        direction: 'vertical',
+        slidesPerView: 1,
+        paginationClickable: true,
+        spaceBetween: 20,
+        mousewheelControl: true,
+        on: {
+            init: function () {
+                {#swiperAnimateCache(this); //隐藏动画元素#}
+                swiperAnimate(this); //初始化完成开始动画
+            },
+            slideChangeTransitionEnd: function () {
+                swiperAnimate(this); //每个slide切换结束时也运行当前slide动画
+                //this.slides.eq(this.activeIndex).find('.ani').removeClass('ani');
+                if (this.isEnd) {
+                    this.allowTouchMove = true;//设置
+                }
+                log_action('slide', this.realIndex)
+            },
+
+            sliderMove: function () {
+
+            },
+
+
+        }
+    });
+
+    function tip_box(info, bt_content = '好的') {
+
+        layer.open({
+            content: info
+            , btn: [bt_content]
+            , yes: function (index) {
+                layer.close(index);
+            }
+        });
+    }
+
+    swiper.on('touchEnd', function () {
+        if (this.isEnd && !this.allowTouchMove) {
+            tip_box('姑凉～ 还有一道选择题呢～～', '哦哦 好的')
+        }
+    });
+
+    function playmusic(forcepaly = false) {
+        var audio = document.getElementById('bgmedia');
+        if (audio !== null) {
+            audio.loop = false;
+            audio.addEventListener('ended', function () {
+                var audio_html = $('#audio_contaner').html();
+                $('#bgmedia').remove()
+                $('#audio_contaner').html(audio_html)
+                playmusic(true)
+            }, false);
+
+            if (forcepaly && audio.paused) {
+                audio.play();
+
+                if (!audio.paused) {
+                    $('#music_icon').addClass("imgRotate");
+                }
+            } else if (!forcepaly) {
+                if (audio.paused) {
+                    audio.play();
+                    if (!audio.paused) {
+                        $('#music_icon').addClass("imgRotate");
+                    }
+                } else {
+                    $('#music_icon').removeClass("imgRotate");
+                    audio.pause(); // 这个就是暂停
+                }
+            }
+        }
+    }
+
+    function autoPlayAudio1() {
+        wx.config({
+            // 配置信息, 即使不正确也能使用 wx.ready
+            debug: false,
+            appId: '',
+            timestamp: 1,
+            nonceStr: '',
+            signature: '',
+            jsApiList: []
+        });
+        wx.ready(function () {
+            console.log("hahaha");
+            playmusic(true)
+        });
+    }
+
+    $(function () {
+        playmusic(true);
+        autoPlayAudio1();
+        log_action('docready', 0)
+
+        $("#music_icon").bind("touchstart", function bf() {
+            playmusic(false)
+        });
+
+        $(".mychoice").click(function () {
+            var bt_type = $(this).attr('bt-type');
+            log_action('click', bt_type);
+            if (bt_type === 'no') {
+                var notip_str = ["工资上交", "家务全包", "房产证写你名字", "保大", "我妈会游泳", "不跟你吵架，会撒娇，会卖萌", "答应我吧"];
+                tip_box(notip_str[NO_TIP_INDEX], '确定');
+                if ((NO_TIP_INDEX + 1) !== notip_str.length) {
+                    NO_TIP_INDEX += 1;
+                }
+            } else {
+                layer.open({
+                    content: "真的，你答应了？"
+                    , btn: ['是的', '还没想好']
+                    , yes: function (index) {
+                        layer.close(index);
+
+                        layer.open({
+                            content: "给我发消息吧，爱你!"
+                            , btn: ['好','好并查看日志报告']
+                            , yes: function (index) {
+                                layer.close(index);
+                                // 确定了...
+                            }
+                        });
+
+                    }
+                });
+
+            }
+
+        })
+
+    });
+
+</script>
+{#<iframe src="http://39.98.67.159:1314/static/media/silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>#}
+
+<div id="audio_contaner">
+    <audio src="http://39.98.67.159:1314/static/media/bgmusic2.mp3" id="bgmedia" loop="loop" autoplay="autoplay" type="audio/mp3">
+        你的浏览器不支持audio标签
+    </audio>
+</div>
+
+</body>
+</html>
